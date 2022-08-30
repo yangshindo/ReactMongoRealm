@@ -24,7 +24,7 @@ function CreateExercise() {
 
 
     useEffect(async () => {
-        const app = new Realm.App({ id: "mernbootcampserverless-cffvk" });
+        const app = new Realm.App({ id: "process.env.REACT_APP_MONGOREALM_ID" });
         const credentials = Realm.Credentials.anonymous();
         try 
         {
