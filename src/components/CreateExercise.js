@@ -24,7 +24,7 @@ function CreateExercise() {
 
 
     useEffect(async () => {
-        const app = new Realm.App({ id: "process.env.REACT_APP_MONGOREALM_ID" });
+        const app = new Realm.App({ id: "process.env.REACT_APP_MONGO_REALM_ID" });
         const credentials = Realm.Credentials.anonymous();
         try 
         {
@@ -68,7 +68,7 @@ function CreateExercise() {
 
 
         
-        const app = new Realm.App({ id: "process.env.REACT_APP_MONGOREALM_ID" });
+        const app = new Realm.App({ id: "process.env.REACT_APP_MONGO_REALM_ID" });
         const credentials = Realm.Credentials.anonymous();
         try 
         {
